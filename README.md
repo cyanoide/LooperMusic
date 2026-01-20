@@ -15,7 +15,7 @@ Formats : Exportation en MP3 ou WAV.
 🚀 Utilisation en ligne
 L'application est accessible via Streamlit Cloud :
 
-👉 [[🎵 Looper Music 🌀](https://loopermusic.streamlit.app/)]
+👉 [🎵 Looper Music 🌀](https://loopermusic.streamlit.app/)
 
 🛠️ Installation (pour le développement local)
 Prérequis
