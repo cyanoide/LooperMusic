@@ -1,54 +1,45 @@
-🎵 Looper Music 🌀
-Un outil web simple et efficace pour créer des boucles audio personnalisées. Idéal pour transformer un morceau avec une intro/outro en une version longue (extended) pour du mix ou du stream.
+# 🎵 Looper Music 🌀
 
-✨ Fonctionnalités
-Découpe précise : Définissez le début et la fin de la boucle au dixième de seconde près.
+**Looper Music** est un outil web simple et efficace pour créer des boucles audio personnalisées. Idéal pour transformer un morceau avec une intro/outro en une version longue (*extended*) pour du mix, du stream ou de la production.
 
-Multiplicateur : Répétez la boucle jusqu'à 100 fois.
 
-Transitions fluides : Crossfade automatique entre les boucles pour éviter les clics sonores.
 
-Fondus (Fades) : Ajoutez un Fade-in au début et un Fade-out à la fin pour un rendu pro.
+## ✨ Fonctionnalités
 
-Formats : Exportation en MP3 ou WAV.
+* **✂️ Découpe précise :** Définissez le début et la fin de la boucle au dixième de seconde près.
+* **🔁 Multiplicateur :** Répétez la partie centrale jusqu'à **100 fois**.
+* **🌊 Transitions fluides :** Crossfade automatique ajustable entre les boucles pour éliminer les "clics" sonores.
+* **🪄 Fondus (Fades) :** Ajoutez un *Fade-in* au début et un *Fade-out* à la fin pour une sortie en douceur.
+* **💾 Formats :** Exportation instantanée en **MP3** ou **WAV**.
 
-🚀 Utilisation en ligne
-L'application est accessible via Streamlit Cloud :
+---
 
-👉 [🎵 Looper Music 🌀](https://loopermusic.streamlit.app/)
+## 🚀 Utilisation en ligne
 
-🛠️ Installation (pour le développement local)
-Prérequis
-Python 3.11 (recommandé)
+L'application est hébergée et prête à l'emploi sur Streamlit Cloud :  
+👉 [**Lancer Looper Music**](https://loopermusic.streamlit.app/)
 
-FFmpeg (obligatoire pour le traitement MP3)
+---
 
-Windows : choco install ffmpeg
+## 🛠️ Installation (Développement local)
 
-Mac : brew install ffmpeg
+Si vous souhaitez faire tourner l'outil sur votre propre machine :
 
-Linux : sudo apt install ffmpeg
+### 1. Prérequis
+* **Python 3.11** (recommandé)
+* **FFmpeg** (obligatoire pour la lecture/écriture des fichiers audio)
+    * **Windows :** `choco install ffmpeg`
+    * **Mac :** `brew install ffmpeg`
+    * **Linux :** `sudo apt install ffmpeg`
 
-Lancement
-Clonez le dépôt :
-
-Bash
-
-git clone https://github.com/votre-nom/looper-music.git
+### 2. Lancement
+```bash
+# Clonez le dépôt
+git clone [https://github.com/votre-nom/looper-music.git](https://github.com/votre-nom/looper-music.git)
 cd looper-music
-Installez les dépendances :
 
-Bash
-
+# Installez les dépendances
 pip install -r requirements.txt
-Lancez l'application :
 
-Bash
-
+# Lancez l'interface
 streamlit run app.py
-📦 Structure du projet
-app.py : Le code source de l'application.
-
-requirements.txt : Liste des bibliothèques Python (pydub, streamlit).
-
-packages.txt : Dépendance système pour le serveur (ffmpeg).
