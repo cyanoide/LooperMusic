@@ -3,11 +3,11 @@ from pydub import AudioSegment
 import io
 
 # Configuration de la page
-st.set_page_config(page_title="Boucleur Audio Pro", page_icon="🎵", layout="centered")
+st.set_page_config(page_title="Boucleur Audio Pro - CND", page_icon="🎵", layout="centered")
 
 st.title("🎵 Boucleur de Musique Automatique")
 st.markdown("""
-Chargez un morceau, définissez la zone à boucler, et téléchargez votre version longue personnalisée.
+Chargez un morceau, définissez la zone à boucler, et téléchargez votre version longue personnalisée. Amusez-vous bien ❤️
 """)
 
 # 1. Upload du fichier
